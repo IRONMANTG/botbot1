@@ -95,8 +95,6 @@ async def start(bot, cmd):
         await cmd.reply_photo(
             photo="https://telegra.ph/file/5cf108e8bcf79572ad110.jpg",
             caption=START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat=''),
