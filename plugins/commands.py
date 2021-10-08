@@ -98,7 +98,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("Group", url="https://t.me/movieshub_group")
+                InlineKeyboardButton("📂 Movie Group", url="https://t.me/CINEMA_JALAKAM")
                 ],[
                 InlineKeyboardButton("😊 About", callback_data="about"),
                 InlineKeyboardButton("🔒 Close", callback_data="close")
