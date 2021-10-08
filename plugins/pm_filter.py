@@ -110,7 +110,10 @@ async def group(client, message):
         return
     if 2 < len(message.text) < 50:    
         btn = []
+
         search = message.text
+        result_txt = f"**•ᴍᴏᴠɪᴇ / sᴇʀɪᴇs : {search}**\n**•ᴄʜᴀɴɴᴇʟ : [ᴄɪɴᴇᴍᴀ ᴊᴀʟᴀᴋᴀᴍ](https://t.me/CJ_OFFICAlL)**\n**•ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴀᴅᴜ ᴛʜᴏᴍᴀ](https://t.me/CINEMA_JALAKAM_autofilter_BOT)**\n \n**©️ Cɪɴᴇᴍᴀ Jᴀʟᴀᴋᴀᴍ**"
+
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
