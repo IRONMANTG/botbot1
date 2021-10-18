@@ -81,10 +81,10 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -100,9 +100,9 @@ async def filter(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM{search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
@@ -148,9 +148,9 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             else:
-                await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -166,9 +166,9 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>താഴെക്കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു ബോട്ടിൽ സ്റ്റാർട്ട് അമർത്തി മൂവി എടുക്കുക 🌀  @CINEMA_JALAKAM {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
@@ -279,7 +279,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('our group', url='https://t.me/CINEMA_JALAKAM')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/THOR_TG'>THOR</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/kanji_ippol_kittum'>Click here</a>\nGROUP : <a href='https://t.me/CINEMA_JALAKAM'>CINEMA JALAKAM</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
